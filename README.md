@@ -39,3 +39,21 @@ This repository provides the design documentation for a **multilingual translati
 
 ## 📜 License
 MIT License or Apache License 2.0 recommended.
+
+---
+
+## 🚀 Usage
+
+Browse the `examples/` folder to see how ModelRefiner Pro v3.5 can be applied to multilingual translation QA:
+
+- **en-ja_sample.md** → Japanese high-context QA example  
+- **en-de_sample.md** → German technical translation QA  
+- **creative_eval.md** → Creative marketing copy evaluation (JA / ES / DE)
+
+For detailed scoring dimensions and evaluation metrics, see the `docs/` folder:
+
+- `docs/system_instructions.md` → Full engine instructions  
+- `docs/translation_matrix.md` → Language-pair benchmark matrix  
+- `docs/rope_metrics.md` → RoPE evaluation axes  
+- `docs/examples.md` → QA case guide
+
