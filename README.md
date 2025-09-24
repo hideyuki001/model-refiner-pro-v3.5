@@ -1,32 +1,33 @@
 # 🛡️ ModelRefiner Pro v3.5 — Multilingual QA Framework
-![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![GitHub stars](https://img.shields.io/github/stars/hideyuki001/model-refiner-pro-v3.5?style=social)
+
+![License](https://img.shields.io/badge/License-MIT-green.svg) 
+![Stars](https://img.shields.io/github/stars/hideyuki001/model-refiner-pro-v3.5?style=social) 
 ![Release](https://img.shields.io/github/v/release/hideyuki001/model-refiner-pro-v3.5)
 
-**Intended audience**: Translation QA specialists, LLM data quality managers, researchers  
+---
 
-This repository provides the design documentation for a **multilingual translation quality evaluation framework**, integrating:  
-- **EUQS (7-dimension scoring)**  
-- **RoPE (SVO retention / tone / rhythm + emotion / aesthetics / causality)**  
+## 🎯 Intended Audience
+Translation QA specialists, LLM data quality managers, researchers
+
+This repository provides the design documentation for a **multilingual translation quality evaluation framework**, integrating:
+
+- **EUQS** (7-dimension scoring)  
+- **RoPE** (SVO retention / tone / rhythm + emotion / aesthetics / causality)
 
 ---
 
 ## 📖 Documentation
-- [System Instructions (8000 chars)](docs/system_instructions.md)  
-  → Full specification (published in full for transparency and research reproducibility)  
-- [Translation Matrix](docs/translation_matrix.md)  
-  → Language pair thresholds (BLEU/ROUGE, RoPE priorities, cultural weights)  
-- [RoPE Metrics](docs/rope_metrics.md)  
-  → Definitions of SVO retention, tone consistency, rhythm, aesthetics, causality  
-- [Examples](docs/examples.md)  
-  → Practical QA examples and scorecard samples  
+- [docs/system_instructions.md](docs/system_instructions.md) → Full specification (8000 chars, transparency & reproducibility)  
+- [docs/translation_matrix.md](docs/translation_matrix.md) → Language pair thresholds (BLEU/ROUGE, RoPE priorities, cultural weights)  
+- [docs/rope_metrics.md](docs/rope_metrics.md) → Definitions of SVO retention, tone consistency, rhythm, aesthetics, causality  
+- [docs/examples.md](docs/examples.md) → Practical QA case guide  
 
 ---
 
 ## 🧪 Examples
-- [EN→JA Translation QA](examples/en-ja_sample.md)  
-- [EN→DE Translation QA](examples/en-de_sample.md)  
-- [Creative text evaluation](examples/creative_eval.md)  
+- [examples/en-ja_sample.md](examples/en-ja_sample.md) → Japanese high-context QA example  
+- [examples/en-de_sample.md](examples/en-de_sample.md) → German technical translation QA  
+- [examples/creative_eval.md](examples/creative_eval.md) → Creative marketing copy evaluation (JA / ES / DE)  
 
 ---
 
@@ -38,22 +39,15 @@ This repository provides the design documentation for a **multilingual translati
 ---
 
 ## 📜 License
-MIT License or Apache License 2.0 recommended.
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.  
 
 ---
 
 ## 🚀 Usage
+Browse the **examples/** folder to see how ModelRefiner Pro v3.5 can be applied to multilingual translation QA:  
 
-Browse the `examples/` folder to see how ModelRefiner Pro v3.5 can be applied to multilingual translation QA:
+- `en-ja_sample.md` → Japanese QA example  
+- `en-de_sample.md` → German QA example  
+- `creative_eval.md` → Creative text evaluation  
 
-- **en-ja_sample.md** → Japanese high-context QA example  
-- **en-de_sample.md** → German technical translation QA  
-- **creative_eval.md** → Creative marketing copy evaluation (JA / ES / DE)
-
-For detailed scoring dimensions and evaluation metrics, see the `docs/` folder:
-
-- `docs/system_instructions.md` → Full engine instructions  
-- `docs/translation_matrix.md` → Language-pair benchmark matrix  
-- `docs/rope_metrics.md` → RoPE evaluation axes  
-- `docs/examples.md` → QA case guide
-
+For detailed scoring dimensions and evaluation metrics, check the **docs/** folder.  
