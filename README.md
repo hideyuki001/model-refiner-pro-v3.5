@@ -1,4 +1,7 @@
 # 🛡️ ModelRefiner Pro v3.5 — Multilingual QA Framework
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![GitHub stars](https://img.shields.io/github/stars/hideyuki001/model-refiner-pro-v3.5?style=social)
+![Release](https://img.shields.io/github/v/release/hideyuki001/model-refiner-pro-v3.5)
 
 **Intended audience**: Translation QA specialists, LLM data quality managers, researchers  
 
